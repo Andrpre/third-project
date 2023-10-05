@@ -47,7 +47,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote{
 }
 
 .cover{
-    padding: 7px 20px 30px 20px;
+    padding: 7px 20px 0 20px;
     background-image: url(images/cover.svg);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -102,8 +102,35 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote{
 
 .reasons{
     padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.content-section__subtitle{
+    font-size: 28px;
+    font-family: 'EB Garamond', serif, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.content-section_size{
+    font-size: 20px;
+}
+
+.content-section__list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 0 0 0 16px;
+}
+
+.content-section__list-accent{
+    font-weight: 700;
 }
 
 .how-to{
     padding: 40px 20px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
 }
